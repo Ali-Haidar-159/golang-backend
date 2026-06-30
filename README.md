@@ -96,8 +96,6 @@ By the end of this journey, the repository will demonstrate how to build scalabl
 - Go (Standard Library)
 - net/http
 - PostgreSQL
-- MySQL
-- SQLite
 - JWT
 - bcrypt
 - Docker
