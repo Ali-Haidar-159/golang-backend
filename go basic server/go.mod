@@ -1,0 +1,3 @@
+module ali.com/basic
+
+go 1.25.6
