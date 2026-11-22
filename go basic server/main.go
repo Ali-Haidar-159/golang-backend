@@ -21,6 +21,11 @@ func homeHandler(w http.ResponseWriter, r *http.Request) {
 		"Access-Control-Allow-Methods",
 		"GET, OPTIONS",
 	)
+	
+	if r.Method == "OPTIONS"{
+		w.WriteHeader(200)
+		return
+	}
 
 	if r.Method == http.MethodOptions {
 		w.WriteHeader(http.StatusNoContent)
